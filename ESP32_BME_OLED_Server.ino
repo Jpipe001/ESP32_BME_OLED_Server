@@ -24,10 +24,8 @@ U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
 String Display_text;
 
 // COMFIGURE WiFi NETWORK
-const char*         ssid = "NETGEAR46";         // "Your Network SSID (Name)"
-//const char*       ssid = "NETGEAR46_EXT";     // "Your Network SSID (Name)"
-//const char*       ssid = "NETGEAR46_2GEXT";   // "Your Network SSID (Name)"
-const char*     password = "icysea351";         // "Your Network Password"
+const char*         ssid = "Your Network SSID (Name)"
+const char*     password = "Your Network Password"
 
 WebServer server(80);
 String local_hwaddr;                    // WiFi local hardware Address
